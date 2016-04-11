@@ -13,35 +13,35 @@
 }
 
 #title {
-	font-family: 'Merriweather', serif;
-	font-weight: 700;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
 }
 
 /*end header section*/
 
-/*body*/
+/*body section*/
 
 #about {
-	color: #29293d;
-	background-color: #f0f0f5;
+  color: #29293d;
+  background-color: #f0f0f5;
 }
 
 #fancy {
-	font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', cursive;
 }
 
 #reg {
-	font-family: 'Merriweather', serif;
-	font-weight: 400;
-	padding: 1.5%;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  padding: 1.5%;
 }
 
 #projects {
-	color: #29293d
-	padding: 100px, 0;
+  color: #29293d
+  padding: 100px, 0;
 }
 
-/*end body*/
+/*end body section*/
 
 /*footer*/
 
