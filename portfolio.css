@@ -53,4 +53,9 @@
   padding: .5%;
 }
 
+.navbar.navbar-default.navbar-fixed-bottom {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /*end footer*/
