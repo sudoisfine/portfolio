@@ -1,54 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial scale=1">
 	<title>Melissa J Guion</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="portfolio.css">
+  <!-- jquery -->
 	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+  <!-- Font Awesome -->
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- my custom stylesheet -->
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+  <!-- main navigation, Bootstrap -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><i class="fa fa-barcode fa-2x" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Projects<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="https://github.com/sudoisfine" target="_blank" class="icon">
+            <i class="fa fa-github fa-2x" aria-hidden="true" title="github"></i></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:m.guion@gmail.com" target="_blank" class="icon">
+            <i class="fa fa-envelope fa-2x" title="email"></i>
+          </a>
+        </li>
+        <li>
+          <a href="http://cargocollective.com/mjguion" target="_blank" class="icon">
+            <i class="fa fa-bolt fa-2x" aria-hidden="true" title="Cargo Collective"></i>
+          </a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 </head>
 
 <body>
 <div class="jumbotron">
 <div class="container-fluid">
   <h1 id="title">Melissa J Guion</h1>
-  <h2 id="fancy">Developer // New Orleans, LA</h2>
+  <h2 class="fancy">Developer // New Orleans, LA</h2>
   </div>
 </div>
 
 <!-- Projects area -->
 <div class="container-fluid" id="projects">
+<h2 class="fancy">Current Projects</h2>
 	<div class="row">
-	<div class="col-xs-6"><p>PROJECTS</p></div>
+	<div class="col-xs-6"><p><i class="fa fa-envelope" title="email"></i></p></div>
 	<div class="col-xs-6"><p>GO HERE!</p></div>
 	</div>
 </div>
 <!-- End Projects area -->
 
 <!-- About section -->
-<footer class="footer">
 <div class="container-fluid" id="about">
 	<div class="row">
-		<div class="col-xs-10 text-left">
-		<h2 id="fancy">About Me</h2>
-			<P id="reg">I'm a native New Orleanean/Cuban who caught the coding bug while studying music at Loyola University. After graduation, I worked for several years in software as an application tester and support administrator, among other roles involving custom software development. I've also worked as an illustrator, a graphic designer, a web development tester, a copy writer, a copy editor, and a technical writer. Through my experience, I've learned that I thoroughly enjoy working through puzzles and creating beautiful solutions.
+		<div class="col-xs-10">
+		<h2 class="fancy">About Me</h2>
+			<P id="reg">I'm a New Orleanean/Cuban who caught the coding bug while studying music in college. After that, I worked for several years in software development as an application tester and support administrator, among other roles. As a bit of a "Jill of all trades," I've also worked as an illustrator, a graphic designer, a web development tester, a copy writer, a copy editor, and a technical writer. Through my experience, I've learned that I thoroughly enjoy working through puzzles and creating beautiful solutions. There is no problem that cannot be solved in a good way.
 			</p>
 			</div>
 		<div class="col-xs-2">
-			<img src="files/Lester_new.png" alt="A photo of my dog Lester gazing upon a Reeses" class="img-responsive">
+			<img src="files/Lester_new.png" alt="A photo of me hugging my dog. " class="img-responsive">
 		</div>
 	</div>
 </div>
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container-fluid">
-    <h3 id="fancy">Get in touch!</h3>
-    <address style="float: left;">
-				<a href="mailto:m.guion@gmail.com">e-mail me</a>
-				</address>
-				<a style="float: right;" href="https://github.com/sudoisfine" target="_blank";><img src="files/GH.png" width="40px" height="40px"/></a>
-  </div>
-</nav>
-</footer>
 
 <br>
 <br>
