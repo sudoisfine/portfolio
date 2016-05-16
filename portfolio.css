@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One|Merriweather:700,400);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Merriweather:700,400,300);
 
 /*Header section*/
 .icon {
@@ -50,41 +50,37 @@ a:active {
 
 /*body section*/
 
-#about {
+#fancier {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  background-color: #ffffff;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.text {
   color: #29293d;
-  background-color: #f0f0f5;
+  font-size: 1.5em;
+  background-color: #ffffff;
+  padding: 30px;
 }
 
 .fancy {
   font-family: 'Poiret One', cursive;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
-#reg {
+.reg {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   padding: 1.5%;
+  text-align: center;
 }
 
-#projects {
-  color: #29293d
-  padding: 100px, 0;
+#low {
+  background-color: ##f0f0f5;
+  color: #29293d;
 }
 
 /*end body section*/
-
-/*footer*/
-
-.footer {
-  bottom: 0;
-  width: 100%;
-  height: 105px;
-  background-color: #f0f0f5;
-  padding: .5%;
-}
-
-.navbar.navbar-default.navbar-fixed-bottom {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/*end footer*/
